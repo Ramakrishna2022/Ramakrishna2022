@@ -29,6 +29,11 @@ public class UserController {
 	@Autowired
 	private UserRepository userRepository;
 
+	@GetMapping("/getUser")
+	public String getUser(){
+		return "Hello CRUD TEST";
+	}
+
 	
 	@GetMapping("/users")
 	public List<User> getAllUsers() {
