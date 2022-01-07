@@ -31,7 +31,7 @@ public class UserController {
 
 	@GetMapping("/getUser")
 	public String getUser(){
-		return "Hello CRUD TEST";
+		return "Hello CRUD TESTAPP";
 	}
 
 	
